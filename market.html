@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="market.css">
+<script type="text/javascript">
+var printed="";
+var total=0;
+function vension()
+{
+
+	var product="Vension Meat";
+	var price=150;
+	var quantity=document.getElementById("vension").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;		
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+
+function veal()
+{
+
+	var product="Veal Meat";
+	var price=120;
+	var quantity=document.getElementById("veal").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;		
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function goat()
+{
+
+	var product="Goat Meat";
+	var price=180;
+	var quantity=document.getElementById("goat").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;		
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function mutton()
+{
+	
+	var product="Mutton Meat";
+	var price=150;
+	var quantity=document.getElementById("mutton").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function cheetos()
+{
+	
+	var product="Cheetos";
+	var price=5;
+	var quantity=document.getElementById("cheetos").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function cocacola()
+{
+	
+	var product="Cocacola";
+	var price=5;
+	var quantity=document.getElementById("cocacola").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function doritos()
+{
+	
+	var product="Doritos";
+	var price=5;
+	var quantity=document.getElementById("doritos").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function amstel()
+{
+	
+	var product="Amstel";
+	var price=5;
+	var quantity=document.getElementById("amstel").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function bolty()
+{
+	
+	var product="Bolty Fish";
+	var price=70;
+	var quantity=document.getElementById("bolty").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function hamour()
+{
+	
+	var product="Hamour Fish";
+	var price=80;
+	var quantity=document.getElementById("hamour").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function bory()
+{
+	
+	var product="Puri Fish";
+	var price=60;
+	var quantity=document.getElementById("bory").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function macarel()
+{
+	
+	var product="Macarel Fish";
+	var price=50;
+	var quantity=document.getElementById("macarel").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function orange()
+{
+	
+	var product="Orange";
+	var price=15;
+	var quantity=document.getElementById("orange").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function grape()
+{
+	
+	var product="Grape";
+	var price=20;
+	var quantity=document.getElementById("grape").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function mango()
+{
+	
+	var product="Mango";
+	var price=25;
+	var quantity=document.getElementById("mango").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function pineapple()
+{
+	
+	var product="Pineapple";
+	var price=30;
+	var quantity=document.getElementById("pineapple").value;
+	if(quantity>0)
+	{
+		price=price*quantity;
+		total=total+price;
+		printed="<tr><td>"+product+"</td><td>"+price+"</td><td>"+quantity+"</td></tr>"+printed;
+	}
+}
+function show()
+{
+	document.getElementById("cart").innerHTML="<tr><th>Product Name</th><th>Price</th><th>Quantity</th>"+printed+"<tr><td>Total Price is</td><td colspan='2'>"+total+"</td><tr>";
+}
+</script>
+</head>
+<body>
+<div>
+<ul>
+<li><a href="homepage.html">Homepage</a></li>
+<li><a href="market.html" class="active">Market</a></li>
+<li><input type="search" id="search" placeholder="Search Here"></input></li>
+<li style="float:right;"><a href="login.html" >Logout</a></li>
+<li style="float:right;"><a href="about us.html">About Us</a></li>
+</ul>
+</div>
+<fieldset>
+<legend><h3>Meats</h3></legend>
+<table border="1" class="table">
+<tr>
+<td><p>Vension-150L.E/KG</p><img src="vension.jpg" class="image"></img><br>
+<button onclick="vension()" class="button">Add</button>
+Quantity <input type="number" min="0" placeholder="0" id="vension"></input>
+</td>
+<td><p>Veal-120L.E/KG</p><img src="veal.jpg" class="image"></img><br>
+<button onclick="veal()" class="button" >Add</button>
+Quantity <input type="number" min="0" id="veal" placeholder="0"></input>
+</td>
+<td><p>Goat-180L.E/KG</p><img src="goat.jpg" class="image"></img><br>
+<button onclick="goat()" class="button">Add</button>
+Quantity <input type="number" min="0" id="goat" placeholder="0"></input>
+</td>
+<td><p>Mutton-150L.E/KG</p><img src="mutton.jpg" class="image"></img><br>
+<button onclick="mutton()" class="button">Add</button>
+Quantity <input type="number" id="mutton" min="0" placeholder="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend><h3>Snacks</h3></legend>
+<table border="1" class="table">
+<tr>
+<td><p>Cheetos-5L.E/Piece</p><img src="cheetos.jpg" class="image"></img><br>
+<button onclick="cheetos()" class="button">Add</button>
+Quantity <input type="number" id="cheetos" min="0" placeholder="0"></input>
+</td>
+<td><p>Cocacola-5L.E/Piece</p><img src="cocacola.jpg" class="image"></img><br>
+<button onclick="cocacola()" class="button">Add</button>
+Quantity <input type="number" min="0" id="cocacola" placeholder="0"></input>
+</td>
+<td><p>Doritos-5L.E/Piece</p><img src="doritos.jpg" class="image"></img><br>
+<button onclick="doritos()" class="button">Add</button>
+Quantity <input type="number" min="0" id="doritos" placeholder="0"></input>
+</td>
+<td><p>Amstel-5L.E/Piece</p><img src="amstel.jpg" class="image"></img><br>
+<button onclick="amstel()" class="button">Add</button>
+Quantity <input type="number" min="0" id="amstel" placeholder="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend><h3>Fish</h3></legend>
+<table border="1" class="table">
+<tr>
+<td><p>Bolty-70L.E/KG</p><img src="bolty.jpg" class="image"></img><br>
+<button onclick="bolty()" class="button">Add</button>
+Quantity <input type="number" min="0" id="bolty" placeholder="0"></input>
+</td>
+<td><p>Hamour-80L.E/KG</p><img src="hamour.jpg" class="image"></img><br>
+<button onclick="hamour()" class="button">Add</button>
+Quantity <input type="number" min="0" id="hamour" placeholder="0"></input>
+</td>
+<td><p>Bory-60L.E/KG</p><img src="bory.jpg" class="image"></img><br>
+<button onclick="bory()" class="button">Add</button>
+Quantity <input type="number" min="0" placeholder="0" id="bory"></input>
+</td>
+<td><p>Macarel-50L.E/KG</p><img src="macarel.jpg" class="image"></img><br>
+<button onclick="macarel()" class="button">Add</button>
+Quantity <input type="number" min="0" placeholder="0" id="macarel"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend><h3>Fruits</h3></legend>
+<table border="1" class="table">
+<tr>
+<td><p>Orange-15L.E/KG</p><img src="orange.jpg" class="image"></img><br>
+<button onclick="orange()" class="button">Add</button>
+Quantity <input type="number" min="0" placeholder="0" id="orange"></input>
+</td>
+<td><p>Grape-20L.E/KG</p><img src="grape.jpg" class="image"></img><br>
+<button onclick="grape()" class="button">Add</button>
+Quantity <input type="number" min="0" placeholder="0" id="grape"></input>
+</td>
+<td><p>Mango-25L.E/KG</p><img src="mango.jpg" class="image"></img><br>
+<button onclick="mango()" class="button">Add</button>
+Quantity <input type="number" min="0" placeholder="0" id="mango"></input>
+</td>
+<td><p>Pineapple-30L.E/KG</p><img src="pineapple.jpg" class="image"></img><br>
+<button onclick="pineapple()" class="button">Add</button>
+Quantity <input type="number" min="0" id="pineapple" placeholder="0"></input>
+</td>
+</tr>
+</table>
+</fieldset>
+<fieldset>
+<legend><h3>Cart</h3></legend>
+<button onclick="show()">Show Reciept</button>
+<table border="1" id="cart">
+</table>
+</fieldset>
+<footer>
+<h4>&copy Copy Rights Reserved</h4>
+</footer>
+</body>
+</html>

@@ -1,0 +1,12 @@
+body{background-image:url("super.jpg");
+background-size:cover;
+}
+#on{
+	background-image:url("White-shadow.png");
+	background-repeat:no-repeat;
+	background-size:300px 200px;
+	background-position:center;
+	text-align:center;
+	font-weight:bolder;
+	padding:120px;
+   }
