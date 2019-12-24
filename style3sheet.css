@@ -1,0 +1,44 @@
+body{background-image:url("super.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+.active{
+	background-color:darkblue;
+}
+.hyper{
+	text-decoration:none;
+	color:blue;
+	padding:5px;
+}
+#contactus{
+	color:white;
+	font-weight:bolder;
+}
+#video{
+	margin-left:16%;
+	height:530px;
+	width:1000px;
+}
+ul{list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+background-color:black;
+}
+li{
+	float:left;
+}
+li a {
+	display:block;
+	color:white;
+	text-align:center;
+	padding:16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:darkblue;
+}
+
+
+
+
